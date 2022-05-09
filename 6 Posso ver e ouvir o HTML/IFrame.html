@@ -1,0 +1,90 @@
+<!--
+    <iframe> - inlane frame element
+      serve para poder pegar conteúdos de outras plataformas
+      sem precisar baixar e hospedar no servidor.
+    
+    - Atributos
+        - src
+        - height
+        - width
+        - title (acessibilidade)
+        - allowfullscreen
+        - frameborder
+    
+        obs: Não é tão comum de se usar e pode causar problemas de segurança
+        e de direitos autorais. Mais em:
+          https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/iframe
+-->
+
+<!--
+     iframe basico
+    <iframe src="https://google.com" frameborder="0"></iframe> 
+-->
+
+<!-- iframe com incorporate do youtube -->
+
+<!-- 
+
+<iframe 
+width="560" 
+height="315" 
+src="https://www.youtube.com/embed/HHRUfDSM5Po"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer;
+autoplay; 
+clipboard-write; 
+encrypted-media; 
+gyroscope; 
+picture-in-picture"
+allowfullscreen>
+
+</iframe>
+
+-->
+
+<!-- é possivel alterar e ainda adicionar mais de um video -->
+<!-- 
+
+<iframe
+width="560" 
+height="315" 
+src="https://www.youtube.com/embed/mv8x1P1dNo0" 
+title="YouTube video player" 
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture" 
+allowfullscreen>
+
+</iframe>
+-->
+
+<!--
+    altura - height
+    largura - width
+    link - src
+    titulo - title
+    borda - frameborder
+    atributos - allow (permitir)
+    tela cheia - allowfullscreen
+    * Atributos
+   - gyroscope: pra quando o usuário girar o celular, o vídeo gira junto;
+   - autoplay: o vídeo começa sozinho;
+   - picture-in-picture: basicamente a função de encolher o vídeo igual no opera;
+-->
+
+<!-- é possível adicionar mapas incorporando eles como abaixo: -->
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17334.087421415992!2d-46.
+    4957726997357!3d-24.029549000883257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+    1s0x94ce1f0b425aa4f3%3A0x1d7d1afde4354463!2sTerminal%20Urbano%20e%20Rodovi%C3%A1rio%20
+    Tatico!5e0!3m2!1spt-BR!2sbr!4v1646333819595!5m2!1spt-BR!2sbr"
+  width="500"
+  height="450"
+  style="border: 0"
+  allowfullscreen
+  aria-hidden="false"
+  loading="lazy"
+>
+</iframe>
