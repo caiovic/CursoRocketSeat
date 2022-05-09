@@ -1,0 +1,48 @@
+
+<!--
+   Aninhamento de tags - por uma tag dentro da outra.
+
+   - Hierarquia - respeitar as posicões. <Div> é pais de <p> que é pai de <em>
+   - Fluxo - cada tag é lida na sua ordem de aparição
+   - Posicionamento de elementos - algumas tags não vão ter quebra de linha
+
+-->
+
+<div>
+
+<p>
+    vou <em>escrever</em> um parágrafo
+</p>
+
+</div>
+<!--
+    <p></p> escreve um parágrafo
+    <em></em> da enfase ao que escrito dentro
+-->
+
+<p>Esse é um novo parágrafo</p>
+
+<p>
+   Esse é um texto
+   esse é outro texto
+   <!--não ocorre quebra de linha-->
+</p>
+
+<p>
+    Outro Texto
+    <p>agora sim</p>
+    <!--agr ocorre-->
+ </p>
+
+ <p>
+    <a href="">Esse</a> é Outro Texto
+    <p>agora sim</p>
+    <!-- <p> cria um bloco de linha
+        ocorrendo uma quebra -->
+ </p>
+
+ <p>
+    quebra de linha <br></br>
+    agora sim
+    <!--agr ocorre-->
+ </p>

@@ -1,0 +1,90 @@
+<!--
+    <video>
+    
+    - src
+    - controls
+    - E se não funcionar?
+        - fallback content
+    - source
+        - src
+        - type
+
+    - Sobre os serviços de terceiros
+-->
+
+
+<!--  Tem essa maneira
+
+<video src="./assets-example/coringo.mp4" controls></video> 
+
+-->
+
+
+
+<!--tem essa--> 
+
+    <video controls
+    autoplay 
+    preload="auto"
+    preload="metadata"
+    preload="none"
+    width="600px"
+    height="400px"
+    loop
+    muted
+    poster="./assets-example/xaropinho.jpg"
+    >
+   
+    <source src="./assets-example/coringo.mp4" type="video/mp4">
+
+</video>
+
+<!-- 
+    Autoplay - serve para rodar o vídeo automaticamente, mas 
+    nem todos os navegadores permitem issso.
+-->
+
+
+<!--
+    preload="auto" - começa a fazer a leitura do video
+    de maneira automatizada, antes da pessoa clicar ele já
+    vai baixando.
+-->
+
+
+<!--
+    preload="metadata" - só baixa a informação necessária,
+    como tamanho vídeo do vídeo.
+-->
+
+
+<!--
+    preload="none" - não faça o download de nada.
+-->
+
+
+<!--
+    Pode escolher com widht e height a dimensão do vídeo.
+-->
+
+
+<!--
+    loop - repete o vídeo assim que ele terminar, mas
+    depende do navegador.
+-->
+
+
+<!--
+    muted - o vídeo começa mutado.
+    muted pode fazer o autoplay funcionar em alguns navegadores
+    que antes não permitiam, pois considera que a privacidade
+    do usuário não será interferida.
+-->
+
+
+<!--
+    poster="nomeDoArquivo" - coloca uma imagem do vídeo antes
+    dele começar, porém não funciona se o autoplay estiver
+    ativo no vídeo.
+-->
+

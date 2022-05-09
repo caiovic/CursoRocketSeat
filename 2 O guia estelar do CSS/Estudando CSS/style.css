@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+/* usado diretamente no css, porém não é recomendado, melhor usar o link*/
+h1 {
+    color: blue;
+    font-family: 'Shizuru', cursive;
+}
+
+strong {
+    color: purple;
+    font-family: 'Shizuru', cursive;
+}
+
+input {
+    color: red;
+    background-color: blue;
+}

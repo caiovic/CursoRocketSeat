@@ -1,0 +1,37 @@
+h1 {
+    font-size: 50px;
+    background-image: url(/imagens/logo.jpg);
+    font-style: italic;
+    background: blueviolet;
+}
+
+.id {
+  width: 100px;
+    
+}
+
+
+.tela-inicial {
+
+  background-color: palevioletred;
+}
+
+.tela-inicial2 {
+  background-color: purple;
+
+}
+
+.tela-inicial1 {
+  background-color: deeppink;
+}
+
+h2 {
+  color: blue;
+  background-color:hotpink;
+ 
+}
+
+.texto-padrao {
+  color: darkorchid;
+  background: indigo;
+}

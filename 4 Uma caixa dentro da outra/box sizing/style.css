@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+} 
+/*
+ É comum ver este tipo de código para que tudo seja contado
+a partir da borda.
+*/
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  /* O padding soma mais 20px de cada lado no widht, totalizando 14px da caixa*/
+
+  /* O box-sizing: border-box tiraria os 40 px a mais, deixando os 100px de verdade*/
